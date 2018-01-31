@@ -1,0 +1,12 @@
+ELECT TABLE_NAME FROM College_2014_15_DB.INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'
+Get all table names in the database
+
+-------------------------------------------------------------------------------------------------------------------
+
+SELECT COLUMN_NAME,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH FROM College_2014_15_DB.INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = N'SubjectMaster'
+
+Get Column Name, Data type and maximum length of the database columns
+used to create sql table in the script.
+
+
+
